@@ -1,56 +1,38 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Cong Lin"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+Dr Cong Lin is a Research Assistant Professor in the Department of Chemistry at The Hong Kong Polytechnic University. His research develops functional solids and reveals how structure governs performance in catalysis, energy storage/conversion and molecular separation. The group combines rational synthesis with advanced X-ray and electron crystallography, spectroscopy and electrochemistry.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## Research
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+### Functional solids by design
+We design and understand zeolites, metal-organic and coordination frameworks, layered oxides, electrocatalysts and composite materials.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+### Catalysis, energy and separation
+We pursue materials for catalytic conversion, electrochemical energy storage and conversion, CO<sub>2</sub> electro(photo)reduction, Li-/Na-ion batteries, and gas adsorption/separation.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+### Structure–property–performance relationships
+We use advanced X-ray/electron diffraction and spectroscopy to resolve local structure, reactivity and performance, enabling evidence-led materials optimization.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## Selected publications
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+1. Ma, C. *et al.* **Accelerated discovery of stable, extra-large-pore nano zeolites with micro-electron diffraction.** *Science* **388**, 1417–1421 (2025). [DOI](https://doi.org/10.1126/science.adv50713)
+2. Lin, C.; Li, J.; Yin, Z.-W. *et al.* **Structural understanding for high-voltage stabilization of lithium cobalt oxide.** *Advanced Materials* **36**, 2307404 (2024). [DOI](https://doi.org/10.1002/adma.202307404)
+3. Li, J.; Lin, C. *et al.* **Structural origin for the high-voltage instability of lithium cobalt oxide.** *Nature Nanotechnology* **16**, 599–605 (2021). [DOI](https://doi.org/10.1038/s41565-021-00855-x)
+4. Huang, W.; Lin, C. *et al.* **Delocalized Li@Mn<sub>6</sub> superstructure units enable layer stability of high-performance Mn-rich cathode materials.** *Chem* **8**, 2163–2178 (2022). [DOI](https://doi.org/10.1016/j.chempr.2022.04.012)
+5. Luo, H.; Lin, C. *et al.* **An ultralong single-crystalline nanoporous 3D transition metal-oxo framework nanowires family.** *Matter* **6**, 3598–3607 (2023). [DOI](https://doi.org/10.1016/j.matt.2023.08.002)
+6. Lin, Q.-F.; Gao, Z. R.; Lin, C. *et al.* **A stable aluminosilicate zeolite with intersecting three-dimensional extra-large pores.** *Science* **374**, 1605–1608 (2021). [DOI](https://doi.org/10.1126/science.abk3258)
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Curriculum vitae
 
-**Markdown generator**
+- **Current position:** Research Assistant Professor, Department of Chemistry, The Hong Kong Polytechnic University (2023–present).
+- **Previous appointments:** PolyU Distinguished Postdoctoral Fellow; Postdoctoral Fellow at Peking University Shenzhen Graduate School.
+- **Education:** PhD in Chemical Engineering & Technology, Chongqing University (joint PhD of Peking University); BSc in Applied Chemistry, Chongqing University.
+- **Profiles:** [Google Scholar](https://scholar.google.com/citations?user=KuQDVfAAAAAJ&hl=zh-CN) · [ORCID](https://orcid.org/0000-0003-0021-5055) · [ResearchGate](https://www.researchgate.net/profile/Cong-Lin-3) · [PolyU profile](https://www.polyu.edu.hk/chem/people/academic-staff/dr-lin-cong/)
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+## Green Structural Chemistry Group
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+The group site introduces our research agenda and opportunities: [Green Structural Chemistry Group](https://lc1286068435.github.io/green-structural-chemistry/).
